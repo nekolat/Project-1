@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 <body>
   <header>
@@ -87,10 +88,20 @@
           	Telefon: (0232) 388 72 21<br>
           	E-Posta: ege_bil_muh@ege.edu.tr<br>
         </section>
-        <section id="sosyal" class="col-sm-3">
-        	<a href="http://egeweb.ege.edu.tr/harita/" title="Sosyal Medya">
-          	<span class="glyphicon glyphicon-link"></span><br class="hidden-xs"></a>
-        </section>
+     	<section id="sosyal" class="col-sm-3">
+	     	<div class="dropdown">
+			  <button class="dropbtn">  <a href="#"><span class="glyphicon glyphicon-link"></span><br class="hidden-xs"></a> 
+			  </button>
+			  <div class="dropdown-content">
+			    <a href="https://www.facebook.com/">
+				<span class="fa fa-facebook-official"></span><br class="hidden-xs"></a>
+			    <a href="https://twitter.com/">
+				<span class="fa fa-twitter"></span><br class="hidden-xs"></a>
+			    <a href="https://www.youtube.com/">
+				<span class="fa fa-youtube"></span><br class="hidden-xs"></a>
+			  </div>
+			</div>
+		</section>
       </div>
       <div class="text-center">&copy; Ali ve Barış Yazılım 2017</div>
     </div>
@@ -100,6 +111,6 @@
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/ajax-utils.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/script.js"></script>  
 </body>
 </html>
